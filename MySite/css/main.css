@@ -65,7 +65,7 @@ h3 {
 
 #surfer_container {
  float: left;
- border-radius: 10px;
+ border-radius: 20px;
  padding: 2px;
 }
 
@@ -77,6 +77,8 @@ article {
  background-color: #77BFC7;
  font-family: 'Junge', serif;
  color: #EBDDE2;
+ -moz-column-count: 3;
+ -webkit-column-count: 3;
 }
 
 .gallery li {    
@@ -87,6 +89,17 @@ article {
   min-height: 175px;
   margin: 0;
  }
+ 
+nav {
+ text-align: center;
+ font-family: 'Junge', serif;
+ padding: 5px;
+ line-height: 1.5;
+ list-style-type: none;
+ font-size: 16px;
+ color: black;
+ overflow: hidden;
+} 
 
 ol {
  font-family: 'Advent Pro', sans-serif;
@@ -104,6 +117,7 @@ a:visited {
 
 a:hover {
  color: white;
+ border-radius: 5px;
  background: #82CAFF;
 }
 
