@@ -1,0 +1,117 @@
+body {
+ background-image: url("../images/image63.jpg");
+ background-attachment: fixed;
+ color: black;
+ font-size: 16px;
+ margin: 0 auto;
+ width: 900px;
+}
+
+p {
+ font-family: 'Junge', serif;
+ color: black;
+}
+
+header {
+ background: #F778A1;
+ opacity: 0.8;
+} 
+
+footer {
+ background: #F778A1;
+ clear: both;
+ font-weight: bold;
+}
+
+h1 {
+ text-align: center;
+ text-shadow: 1px 1px 15px #111;
+ font-size: 40px;
+ font-family: 'Acme', sans-serif;
+ color: #736AFF;
+}
+
+h2 {
+ color: white;
+ text-shadow: 2px 2px 20px #111;
+ text-align: center;
+ font-size: 32px;
+ font-family: 'Advent Pro', sans-serif;
+ line-height: 0.5;
+}
+
+h3 {
+ text-shadow: 2px 2px 20px #111;
+ font-size: 25px;
+ font-family: 'Loved by the King', serif;
+ color: white;
+ padding: 3px;
+}
+
+#wrapper {
+ background-color: silver;
+ border: 2px solid #333;
+ border-radius: 5px;
+ box-shadow: 2px 2px 2px #111;
+ padding: 3px;
+ width: 900px;
+}
+
+#about {
+ background-color: #82CAFF;
+ padding: 3px;
+ font-size: 16px;
+}
+
+#surfer_container {
+ float: left;
+ border-radius: 10px;
+ padding: 2px;
+}
+
+.fun {
+ font-size: 16px;
+}
+
+article {
+ background-color: #77BFC7;
+ font-family: 'Junge', serif;
+ color: #EBDDE2;
+}
+
+.gallery li {    
+  display: inline;
+  list-style: none;
+  float: left;
+  text-align: center;
+  min-height: 175px;
+  margin: 0;
+ }
+
+ol {
+ font-family: 'Advent Pro', sans-serif;
+ font-size: 16px;
+ color: white;
+}
+
+a:link {
+ color:#000;
+}
+
+a:visited {
+ color:#000;
+}
+
+a:hover {
+ color: white;
+ background: #82CAFF;
+}
+
+a:active {
+ color: #FF0000;
+}
+
+a {
+ text-decoration: none;
+ text-align: center;
+}
