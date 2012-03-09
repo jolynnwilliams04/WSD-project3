@@ -2,9 +2,9 @@ body {
  background-image: url("../images/image63.jpg");
  background-attachment: fixed;
  color: black;
- font-size: 16px;
+ font-size: 100% /* 16px */;
  margin: 0 auto;
- width: 900px;
+ width: 80% /* 900px */;
 }
 
 p {
@@ -26,7 +26,7 @@ footer {
 h1 {
  text-align: center;
  text-shadow: 1px 1px 15px #111;
- font-size: 40px;
+ font-size: 245% /* 40px */;
  font-family: 'Acme', sans-serif;
  color: #736AFF;
 }
@@ -35,42 +35,47 @@ h2 {
  color: white;
  text-shadow: 2px 2px 20px #111;
  text-align: center;
- font-size: 32px;
+ font-size: 200% /* 32px */;
  font-family: 'Advent Pro', sans-serif;
  line-height: 0.5;
 }
 
 h3 {
  text-shadow: 2px 2px 20px #111;
- font-size: 25px;
+ font-size: 125% /* 20px */;
  font-family: 'Loved by the King', serif;
  color: white;
- padding: 3px;
+ padding: 0.188em /* 3px */;
 }
 
 #wrapper {
  background-color: silver;
  border: 2px solid #333;
- border-radius: 5px;
+ border-radius: 0.313em /* 5px */;
  box-shadow: 2px 2px 2px #111;
- padding: 3px;
- width: 900px;
+ padding: 0.188em /* 3px */;
+ width: 100% /* 900px */;
 }
 
 #about {
  background-color: #82CAFF;
- padding: 3px;
- font-size: 16px;
+ padding: 0.188em /* 3px */;
+ font-size: 85%;
 }
 
 #surfer_container {
  float: left;
- border-radius: 20px;
- padding: 2px;
+ border-radius: 125% /* 20px */;
+ padding: 0.125em /* 2px */;
+ max-width: 100%;
+}
+
+#surf {
+ max-width: 100%;
 }
 
 .fun {
- font-size: 16px;
+ font-size: 100% /* 16px */;
 }
 
 article {
@@ -86,24 +91,28 @@ article {
   list-style: none;
   float: left;
   text-align: center;
-  min-height: 175px;
   margin: 0;
+  max-width: 100%;
  }
  
+img {
+ max-width: 100%;
+}
+
 nav {
  text-align: center;
  font-family: 'Junge', serif;
- padding: 5px;
+ padding: 0.313em /* 5px */;
  line-height: 1.5;
  list-style-type: none;
- font-size: 16px;
+ font-size: 100% /* 16px */;
  color: black;
  overflow: hidden;
 } 
 
 ol {
  font-family: 'Advent Pro', sans-serif;
- font-size: 16px;
+ font-size: 80%;
  color: white;
 }
 
@@ -128,4 +137,54 @@ a:active {
 a {
  text-decoration: none;
  text-align: center;
+}
+
+/* =Media Queries
+================================================================== */
+
+	/* Tablet Portrait size standard 960 (device and browsers) */
+	@media screen and (min-width:600px) and (max-width:850px) {
+	 #wrapper { background-color:#ADDFFF; 
+	 			height: auto;}
+	 #about { width:90%;}
+	 h1 { font-size: 35px;}
+	 h2 { font-size: 24px;}
+	 h3 { font-size: 17px;}
+	 .gallery li { max-width:50%;
+	 			float: left;}
+	 #surfer_container { max-width:50%;}
+}
+
+	/* Mobile Landscape Size to Tablet Portrait (device and browsers) */
+	@media only screen and (min-width:460px) and (max-width:600px) {
+	 #wrapper { background-color:#50EBEC; 
+	 			height: auto;}
+	 #about { width:90%;}
+	 h1 { font-size: 30px;}
+	 h2 { font-size: 20px;}
+	 h3 { font-size: 20px;}
+	 nav { font-size: 13px;}
+	 .fun { font-size: 12px;}
+	 .gallery li { max-width:50%;
+	            float: left;}
+	 #surfer_container { max-width:50%;}
+	 article { -moz-column-count: 2;
+		       -webkit-column-count: 2; }
+}
+
+	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
+	@media only screen and (max-width:479px) {
+	 #wrapper { background-color:#D2B9D3;
+	 			height: auto;}
+	 #about { width:90%;}
+	 h1 { font-size: 30px;}
+	 h2 { font-size: 20px;}
+	 h3 { font-size: 20px;}
+	 nav { font-size: 13px;}
+	 .fun { font-size: 12px;}
+	 .gallery li { max-width:50%;
+	            float: left;}
+	 #surfer_container { display:none;}
+	 article { -moz-column-count: 1;
+		       -webkit-column-count: 1; }	       
 }
