@@ -48,6 +48,22 @@ h3 {
  padding: 0.188em /* 3px */;
 }
 
+table {
+ font-family: 'Junge', serif;
+ font-size: 85%;
+ max-width: 100%;
+ border-collapse: collapse;
+}
+
+td {
+ padding: 0.313em /* 5px */;
+}
+
+th {
+ text-align: left;
+ padding: 0.313em /* 5px */;
+}
+
 #wrapper {
  background-color: silver;
  border: 2px solid #333;
@@ -170,6 +186,7 @@ a {
 	 #surfer_container { max-width:50%;}
 	 article { -moz-column-count: 2;
 		       -webkit-column-count: 2; }
+	 table { font-size: 80%;}
 }
 
 	/* Mobile Portrait Size to Mobile Landscape Size (device and browsers) */
@@ -186,5 +203,6 @@ a {
 	            float: left;}
 	 #surfer_container { display:none;}
 	 article { -moz-column-count: 1;
-		       -webkit-column-count: 1; }	       
+		       -webkit-column-count: 1; }	
+	 table { font-size: 70%;}
 }
