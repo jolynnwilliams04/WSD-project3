@@ -53,10 +53,12 @@ table {
  font-size: 85%;
  max-width: 100%;
  border-collapse: collapse;
+ border: 1px solid #000;
 }
 
 td {
  padding: 0.313em /* 5px */;
+ border: 1px solid #000;
 }
 
 th {
