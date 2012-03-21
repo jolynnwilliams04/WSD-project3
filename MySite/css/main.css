@@ -178,11 +178,11 @@ a {
 	 #wrapper { background-color:#50EBEC; 
 	 			height: auto;}
 	 #about { width:90%;}
-	 h1 { font-size: 30px;}
-	 h2 { font-size: 20px;}
-	 h3 { font-size: 20px;}
-	 nav { font-size: 13px;}
-	 .fun { font-size: 12px;}
+	 h1 { font-size: 245% /* 30px*/;}
+	 h2 { font-size: 125% /* 20px*/;}
+	 h3 { font-size: 125% /* 20px*/;}
+	 nav { font-size: 80% /* 13px*/;}
+	 .fun { font-size: 75% /*12px*/;}
 	 .gallery li { max-width:50%;
 	            float: left;}
 	 #surfer_container { max-width:50%;}
@@ -196,11 +196,11 @@ a {
 	 #wrapper { background-color:#D2B9D3;
 	 			height: auto;}
 	 #about { width:90%;}
-	 h1 { font-size: 30px;}
-	 h2 { font-size: 20px;}
-	 h3 { font-size: 20px;}
-	 nav { font-size: 13px;}
-	 .fun { font-size: 12px;}
+	 h1 { font-size: 245% /* 30px*/;}
+	 h2 { font-size: 125% /* 20px*/;}
+	 h3 { font-size: 125% /* 20px*/;}
+	 nav { font-size: 80% /* 13px*/;}
+	 .fun { font-size: 75% /*12px*/;}
 	 .gallery li { max-width:50%;
 	            float: left;}
 	 #surfer_container { display:none;}
